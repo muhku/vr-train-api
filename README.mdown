@@ -12,6 +12,8 @@ Example iOS application
 
 ![](https://raw.github.com/muhku/vr-train-api/master/Extra/screenshot.png)
 
+![](https://raw.github.com/muhku/vr-train-api/master/Extra/screenshot2.png)
+
 Using the classes in your own project
 ====================
 
