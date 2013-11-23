@@ -33,6 +33,9 @@
 @interface MATrainMapViewController (PrivateMethods)
 - (void)updateTrainCallback;
 - (void)updateMap;
+
+@property (readonly) MALoadTrainRequest *request;
+
 @end
 
 @implementation MATrainMapViewController
@@ -117,6 +120,11 @@
  * =======================================
  */
 
+- (MALoadTrainRequest *)request
+{
+    return _request;
+}
+
 - (void)updateMap
 {
     MKMapView *mapView = (MKMapView *)self.view;
@@ -140,7 +148,7 @@
     _request.onCompletion = ^(void) {
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         
-        weakSelf.train = _request.train;
+        weakSelf.train = weakSelf.request.train;
         
         [weakSelf updateMap];
     };
