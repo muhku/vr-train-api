@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34755810155A6C6400E74FE5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3475580F155A6C6400E74FE5 /* Cocoa.framework */; };
+		3475581A155A6C6400E74FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34755818155A6C6400E74FE5 /* InfoPlist.strings */; };
+		3475581C155A6C6400E74FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3475581B155A6C6400E74FE5 /* main.m */; };
+		34755820155A6C6400E74FE5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3475581E155A6C6400E74FE5 /* Credits.rtf */; };
+		34755823155A6C6400E74FE5 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34755822155A6C6400E74FE5 /* MAAppDelegate.m */; };
+		34755826155A6C6400E74FE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34755824155A6C6400E74FE5 /* MainMenu.xib */; };
+		3475582E155A6C6500E74FE5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3475582D155A6C6500E74FE5 /* SenTestingKit.framework */; };
+		3475582F155A6C6500E74FE5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3475580F155A6C6400E74FE5 /* Cocoa.framework */; };
+		34755837155A6C6500E74FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34755835155A6C6500E74FE5 /* InfoPlist.strings */; };
+		3475583A155A6C6500E74FE5 /* TrainSpotXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34755839155A6C6500E74FE5 /* TrainSpotXTests.m */; };
+		34755852155A6C9E00E74FE5 /* MALoadTrainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34755846155A6C9E00E74FE5 /* MALoadTrainRequest.m */; };
+		34755853155A6C9E00E74FE5 /* MALoadTrainStationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34755848155A6C9E00E74FE5 /* MALoadTrainStationRequest.m */; };
+		34755854155A6C9E00E74FE5 /* MATrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3475584A155A6C9E00E74FE5 /* MATrain.m */; };
+		34755855155A6C9E00E74FE5 /* MATrainInformationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3475584C155A6C9E00E74FE5 /* MATrainInformationService.m */; };
+		34755856155A6C9E00E74FE5 /* MATrainStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3475584E155A6C9E00E74FE5 /* MATrainStation.m */; };
+		34755857155A6C9E00E74FE5 /* MAXMLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34755850155A6C9E00E74FE5 /* MAXMLHttpRequest.m */; };
+		34755858155A6C9E00E74FE5 /* stations.txt in Resources */ = {isa = PBXBuildFile; fileRef = 34755851155A6C9E00E74FE5 /* stations.txt */; };
+		34755886155A6D1700E74FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34755884155A6D1700E74FE5 /* InfoPlist.strings */; };
+		34755888155A6D1700E74FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34755887155A6D1700E74FE5 /* main.m */; };
+		34755893155A6D1800E74FE5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3475582D155A6C6500E74FE5 /* SenTestingKit.framework */; };
+		3475589D155A6D1800E74FE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3475589B155A6D1800E74FE5 /* InfoPlist.strings */; };
+		347558A0155A6D1800E74FE5 /* TrainSpotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3475589F155A6D1800E74FE5 /* TrainSpotTests.m */; };
+		347558B1155A6D4000E74FE5 /* MATrainMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347558A8155A6D4000E74FE5 /* MATrainMapViewController.m */; };
+		347558B2155A6D4000E74FE5 /* MATrainStationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347558AA155A6D4000E74FE5 /* MATrainStationListViewController.m */; };
+		347558B3155A6D4000E74FE5 /* MATrainStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347558AC155A6D4000E74FE5 /* MATrainStationViewController.m */; };
+		347558B4155A6D4000E74FE5 /* MATrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347558AE155A6D4000E74FE5 /* MATrainViewController.m */; };
+		347558B5155A6D4000E74FE5 /* TrainSpotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 347558B0155A6D4000E74FE5 /* TrainSpotAppDelegate.m */; };
+		347558B6155A6D5F00E74FE5 /* stations.txt in Resources */ = {isa = PBXBuildFile; fileRef = 34755851155A6C9E00E74FE5 /* stations.txt */; };
+		347558B7155A6D6200E74FE5 /* MAXMLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34755850155A6C9E00E74FE5 /* MAXMLHttpRequest.m */; };
+		347558B8155A6D6500E74FE5 /* MATrainStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3475584E155A6C9E00E74FE5 /* MATrainStation.m */; };
+		347558B9155A6D6800E74FE5 /* MATrainInformationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3475584C155A6C9E00E74FE5 /* MATrainInformationService.m */; };
+		347558BA155A6D6B00E74FE5 /* MATrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3475584A155A6C9E00E74FE5 /* MATrain.m */; };
+		347558BB155A6D7000E74FE5 /* MALoadTrainStationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34755848155A6C9E00E74FE5 /* MALoadTrainStationRequest.m */; };
+		347558BC155A6D7300E74FE5 /* MALoadTrainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34755846155A6C9E00E74FE5 /* MALoadTrainRequest.m */; };
+		347558BE155A6DB500E74FE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347558BD155A6DB500E74FE5 /* UIKit.framework */; };
+		347558C0155A6DBA00E74FE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347558BF155A6DBA00E74FE5 /* CoreGraphics.framework */; };
+		347558C2155A6DBF00E74FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347558C1155A6DBF00E74FE5 /* Foundation.framework */; };
+		347558C4155A6DC300E74FE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347558C3155A6DC300E74FE5 /* CoreLocation.framework */; };
+		347558C6155A6DC700E74FE5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347558C5155A6DC700E74FE5 /* MapKit.framework */; };
+		347558C8155A6DD100E74FE5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 347558C7155A6DD100E74FE5 /* libxml2.dylib */; };
+		347558CC155A722D00E74FE5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 347558CB155A722D00E74FE5 /* libxml2.dylib */; };
+		347558CE155A725300E74FE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347558CD155A725300E74FE5 /* CoreLocation.framework */; };
+		3482A908157CCD4B0013FB6B /* MAApplicationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3482A907157CCD4B0013FB6B /* MAApplicationSettings.m */; };
+		60284548155AD74400692916 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60284546155AD74400692916 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34755830155A6C6500E74FE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34755802155A6C6400E74FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3475580A155A6C6400E74FE5;
+			remoteInfo = TrainSpotX;
+		};
+		34755896155A6D1800E74FE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34755802155A6C6400E74FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34755878155A6D1700E74FE5;
+			remoteInfo = TrainSpot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3475580B155A6C6400E74FE5 /* TrainSpotX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainSpotX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3475580F155A6C6400E74FE5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		34755812155A6C6400E74FE5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		34755813155A6C6400E74FE5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		34755814155A6C6400E74FE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34755817155A6C6400E74FE5 /* TrainSpotX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrainSpotX-Info.plist"; sourceTree = "<group>"; };
+		34755819155A6C6400E74FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3475581B155A6C6400E74FE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3475581D155A6C6400E74FE5 /* TrainSpotX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrainSpotX-Prefix.pch"; sourceTree = "<group>"; };
+		3475581F155A6C6400E74FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		34755821155A6C6400E74FE5 /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
+		34755822155A6C6400E74FE5 /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
+		34755825155A6C6400E74FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3475582C155A6C6500E74FE5 /* TrainSpotXTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainSpotXTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3475582D155A6C6500E74FE5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		34755834155A6C6500E74FE5 /* TrainSpotXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrainSpotXTests-Info.plist"; sourceTree = "<group>"; };
+		34755836155A6C6500E74FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34755838155A6C6500E74FE5 /* TrainSpotXTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainSpotXTests.h; sourceTree = "<group>"; };
+		34755839155A6C6500E74FE5 /* TrainSpotXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainSpotXTests.m; sourceTree = "<group>"; };
+		34755845155A6C9E00E74FE5 /* MALoadTrainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MALoadTrainRequest.h; path = LibTrainSpot/MALoadTrainRequest.h; sourceTree = "<group>"; };
+		34755846155A6C9E00E74FE5 /* MALoadTrainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MALoadTrainRequest.m; path = LibTrainSpot/MALoadTrainRequest.m; sourceTree = "<group>"; };
+		34755847155A6C9E00E74FE5 /* MALoadTrainStationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MALoadTrainStationRequest.h; path = LibTrainSpot/MALoadTrainStationRequest.h; sourceTree = "<group>"; };
+		34755848155A6C9E00E74FE5 /* MALoadTrainStationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MALoadTrainStationRequest.m; path = LibTrainSpot/MALoadTrainStationRequest.m; sourceTree = "<group>"; };
+		34755849155A6C9E00E74FE5 /* MATrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MATrain.h; path = LibTrainSpot/MATrain.h; sourceTree = "<group>"; };
+		3475584A155A6C9E00E74FE5 /* MATrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MATrain.m; path = LibTrainSpot/MATrain.m; sourceTree = "<group>"; };
+		3475584B155A6C9E00E74FE5 /* MATrainInformationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MATrainInformationService.h; path = LibTrainSpot/MATrainInformationService.h; sourceTree = "<group>"; };
+		3475584C155A6C9E00E74FE5 /* MATrainInformationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MATrainInformationService.m; path = LibTrainSpot/MATrainInformationService.m; sourceTree = "<group>"; };
+		3475584D155A6C9E00E74FE5 /* MATrainStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MATrainStation.h; path = LibTrainSpot/MATrainStation.h; sourceTree = "<group>"; };
+		3475584E155A6C9E00E74FE5 /* MATrainStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MATrainStation.m; path = LibTrainSpot/MATrainStation.m; sourceTree = "<group>"; };
+		3475584F155A6C9E00E74FE5 /* MAXMLHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAXMLHttpRequest.h; path = LibTrainSpot/MAXMLHttpRequest.h; sourceTree = "<group>"; };
+		34755850155A6C9E00E74FE5 /* MAXMLHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAXMLHttpRequest.m; path = LibTrainSpot/MAXMLHttpRequest.m; sourceTree = "<group>"; };
+		34755851155A6C9E00E74FE5 /* stations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = stations.txt; path = LibTrainSpot/stations.txt; sourceTree = "<group>"; };
+		34755879155A6D1700E74FE5 /* TrainSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34755883155A6D1700E74FE5 /* TrainSpot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrainSpot-Info.plist"; sourceTree = "<group>"; };
+		34755885155A6D1700E74FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34755887155A6D1700E74FE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34755889155A6D1700E74FE5 /* TrainSpot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrainSpot-Prefix.pch"; sourceTree = "<group>"; };
+		34755892155A6D1800E74FE5 /* TrainSpotTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainSpotTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3475589A155A6D1800E74FE5 /* TrainSpotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrainSpotTests-Info.plist"; sourceTree = "<group>"; };
+		3475589C155A6D1800E74FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3475589E155A6D1800E74FE5 /* TrainSpotTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainSpotTests.h; sourceTree = "<group>"; };
+		3475589F155A6D1800E74FE5 /* TrainSpotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainSpotTests.m; sourceTree = "<group>"; };
+		347558A7155A6D4000E74FE5 /* MATrainMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATrainMapViewController.h; sourceTree = "<group>"; };
+		347558A8155A6D4000E74FE5 /* MATrainMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATrainMapViewController.m; sourceTree = "<group>"; };
+		347558A9155A6D4000E74FE5 /* MATrainStationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATrainStationListViewController.h; sourceTree = "<group>"; };
+		347558AA155A6D4000E74FE5 /* MATrainStationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATrainStationListViewController.m; sourceTree = "<group>"; };
+		347558AB155A6D4000E74FE5 /* MATrainStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATrainStationViewController.h; sourceTree = "<group>"; };
+		347558AC155A6D4000E74FE5 /* MATrainStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATrainStationViewController.m; sourceTree = "<group>"; };
+		347558AD155A6D4000E74FE5 /* MATrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATrainViewController.h; sourceTree = "<group>"; };
+		347558AE155A6D4000E74FE5 /* MATrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATrainViewController.m; sourceTree = "<group>"; };
+		347558AF155A6D4000E74FE5 /* TrainSpotAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainSpotAppDelegate.h; sourceTree = "<group>"; };
+		347558B0155A6D4000E74FE5 /* TrainSpotAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainSpotAppDelegate.m; sourceTree = "<group>"; };
+		347558BD155A6DB500E74FE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		347558BF155A6DBA00E74FE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		347558C1155A6DBF00E74FE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		347558C3155A6DC300E74FE5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		347558C5155A6DC700E74FE5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		347558C7155A6DD100E74FE5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
+		347558CA155A71A300E74FE5 /* MKAnnotation_Mock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKAnnotation_Mock.h; path = LibTrainSpot/MKAnnotation_Mock.h; sourceTree = "<group>"; };
+		347558CB155A722D00E74FE5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		347558CD155A725300E74FE5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3482A906157CCD4B0013FB6B /* MAApplicationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAApplicationSettings.h; sourceTree = "<group>"; };
+		3482A907157CCD4B0013FB6B /* MAApplicationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAApplicationSettings.m; sourceTree = "<group>"; };
+		60284547155AD74400692916 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34755808155A6C6400E74FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347558CE155A725300E74FE5 /* CoreLocation.framework in Frameworks */,
+				347558CC155A722D00E74FE5 /* libxml2.dylib in Frameworks */,
+				34755810155A6C6400E74FE5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34755828155A6C6500E74FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3475582E155A6C6500E74FE5 /* SenTestingKit.framework in Frameworks */,
+				3475582F155A6C6500E74FE5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34755876155A6D1700E74FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347558C8155A6DD100E74FE5 /* libxml2.dylib in Frameworks */,
+				347558C6155A6DC700E74FE5 /* MapKit.framework in Frameworks */,
+				347558C4155A6DC300E74FE5 /* CoreLocation.framework in Frameworks */,
+				347558C2155A6DBF00E74FE5 /* Foundation.framework in Frameworks */,
+				347558C0155A6DBA00E74FE5 /* CoreGraphics.framework in Frameworks */,
+				347558BE155A6DB500E74FE5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3475588E155A6D1800E74FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34755893155A6D1800E74FE5 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34755800155A6C6400E74FE5 = {
+			isa = PBXGroup;
+			children = (
+				34755844155A6C9100E74FE5 /* LibTrainSpot */,
+				34755815155A6C6400E74FE5 /* TrainSpotX */,
+				34755832155A6C6500E74FE5 /* TrainSpotXTests */,
+				34755881155A6D1700E74FE5 /* TrainSpot */,
+				34755898155A6D1800E74FE5 /* TrainSpotTests */,
+				3475580E155A6C6400E74FE5 /* Frameworks */,
+				3475580C155A6C6400E74FE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3475580C155A6C6400E74FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3475580B155A6C6400E74FE5 /* TrainSpotX.app */,
+				3475582C155A6C6500E74FE5 /* TrainSpotXTests.octest */,
+				34755879155A6D1700E74FE5 /* TrainSpot.app */,
+				34755892155A6D1800E74FE5 /* TrainSpotTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3475580E155A6C6400E74FE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				347558CB155A722D00E74FE5 /* libxml2.dylib */,
+				347558CD155A725300E74FE5 /* CoreLocation.framework */,
+				3475580F155A6C6400E74FE5 /* Cocoa.framework */,
+				3475582D155A6C6500E74FE5 /* SenTestingKit.framework */,
+				34755811155A6C6400E74FE5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34755811155A6C6400E74FE5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34755812155A6C6400E74FE5 /* AppKit.framework */,
+				34755813155A6C6400E74FE5 /* CoreData.framework */,
+				34755814155A6C6400E74FE5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		34755815155A6C6400E74FE5 /* TrainSpotX */ = {
+			isa = PBXGroup;
+			children = (
+				34755821155A6C6400E74FE5 /* MAAppDelegate.h */,
+				34755822155A6C6400E74FE5 /* MAAppDelegate.m */,
+				3482A906157CCD4B0013FB6B /* MAApplicationSettings.h */,
+				3482A907157CCD4B0013FB6B /* MAApplicationSettings.m */,
+				34755824155A6C6400E74FE5 /* MainMenu.xib */,
+				34755816155A6C6400E74FE5 /* Supporting Files */,
+			);
+			path = TrainSpotX;
+			sourceTree = "<group>";
+		};
+		34755816155A6C6400E74FE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34755817155A6C6400E74FE5 /* TrainSpotX-Info.plist */,
+				34755818155A6C6400E74FE5 /* InfoPlist.strings */,
+				3475581B155A6C6400E74FE5 /* main.m */,
+				3475581D155A6C6400E74FE5 /* TrainSpotX-Prefix.pch */,
+				3475581E155A6C6400E74FE5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34755832155A6C6500E74FE5 /* TrainSpotXTests */ = {
+			isa = PBXGroup;
+			children = (
+				34755838155A6C6500E74FE5 /* TrainSpotXTests.h */,
+				34755839155A6C6500E74FE5 /* TrainSpotXTests.m */,
+				34755833155A6C6500E74FE5 /* Supporting Files */,
+			);
+			path = TrainSpotXTests;
+			sourceTree = "<group>";
+		};
+		34755833155A6C6500E74FE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34755834155A6C6500E74FE5 /* TrainSpotXTests-Info.plist */,
+				34755835155A6C6500E74FE5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34755844155A6C9100E74FE5 /* LibTrainSpot */ = {
+			isa = PBXGroup;
+			children = (
+				347558CA155A71A300E74FE5 /* MKAnnotation_Mock.h */,
+				34755845155A6C9E00E74FE5 /* MALoadTrainRequest.h */,
+				34755846155A6C9E00E74FE5 /* MALoadTrainRequest.m */,
+				34755847155A6C9E00E74FE5 /* MALoadTrainStationRequest.h */,
+				34755848155A6C9E00E74FE5 /* MALoadTrainStationRequest.m */,
+				34755849155A6C9E00E74FE5 /* MATrain.h */,
+				3475584A155A6C9E00E74FE5 /* MATrain.m */,
+				3475584B155A6C9E00E74FE5 /* MATrainInformationService.h */,
+				3475584C155A6C9E00E74FE5 /* MATrainInformationService.m */,
+				3475584D155A6C9E00E74FE5 /* MATrainStation.h */,
+				3475584E155A6C9E00E74FE5 /* MATrainStation.m */,
+				3475584F155A6C9E00E74FE5 /* MAXMLHttpRequest.h */,
+				34755850155A6C9E00E74FE5 /* MAXMLHttpRequest.m */,
+				34755851155A6C9E00E74FE5 /* stations.txt */,
+			);
+			name = LibTrainSpot;
+			sourceTree = "<group>";
+		};
+		34755881155A6D1700E74FE5 /* TrainSpot */ = {
+			isa = PBXGroup;
+			children = (
+				347558A7155A6D4000E74FE5 /* MATrainMapViewController.h */,
+				347558A8155A6D4000E74FE5 /* MATrainMapViewController.m */,
+				347558A9155A6D4000E74FE5 /* MATrainStationListViewController.h */,
+				347558AA155A6D4000E74FE5 /* MATrainStationListViewController.m */,
+				347558AB155A6D4000E74FE5 /* MATrainStationViewController.h */,
+				347558AC155A6D4000E74FE5 /* MATrainStationViewController.m */,
+				347558AD155A6D4000E74FE5 /* MATrainViewController.h */,
+				347558AE155A6D4000E74FE5 /* MATrainViewController.m */,
+				347558AF155A6D4000E74FE5 /* TrainSpotAppDelegate.h */,
+				347558B0155A6D4000E74FE5 /* TrainSpotAppDelegate.m */,
+				60284546155AD74400692916 /* MainWindow.xib */,
+				34755882155A6D1700E74FE5 /* Supporting Files */,
+				347558C9155A6E3800E74FE5 /* Frameworks */,
+			);
+			path = TrainSpot;
+			sourceTree = "<group>";
+		};
+		34755882155A6D1700E74FE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34755883155A6D1700E74FE5 /* TrainSpot-Info.plist */,
+				34755884155A6D1700E74FE5 /* InfoPlist.strings */,
+				34755887155A6D1700E74FE5 /* main.m */,
+				34755889155A6D1700E74FE5 /* TrainSpot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34755898155A6D1800E74FE5 /* TrainSpotTests */ = {
+			isa = PBXGroup;
+			children = (
+				3475589E155A6D1800E74FE5 /* TrainSpotTests.h */,
+				3475589F155A6D1800E74FE5 /* TrainSpotTests.m */,
+				34755899155A6D1800E74FE5 /* Supporting Files */,
+			);
+			path = TrainSpotTests;
+			sourceTree = "<group>";
+		};
+		34755899155A6D1800E74FE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3475589A155A6D1800E74FE5 /* TrainSpotTests-Info.plist */,
+				3475589B155A6D1800E74FE5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		347558C9155A6E3800E74FE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				347558C7155A6DD100E74FE5 /* libxml2.dylib */,
+				347558C5155A6DC700E74FE5 /* MapKit.framework */,
+				347558C3155A6DC300E74FE5 /* CoreLocation.framework */,
+				347558C1155A6DBF00E74FE5 /* Foundation.framework */,
+				347558BF155A6DBA00E74FE5 /* CoreGraphics.framework */,
+				347558BD155A6DB500E74FE5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3475580A155A6C6400E74FE5 /* TrainSpotX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3475583D155A6C6500E74FE5 /* Build configuration list for PBXNativeTarget "TrainSpotX" */;
+			buildPhases = (
+				34755807155A6C6400E74FE5 /* Sources */,
+				34755808155A6C6400E74FE5 /* Frameworks */,
+				34755809155A6C6400E74FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainSpotX;
+			productName = TrainSpotX;
+			productReference = 3475580B155A6C6400E74FE5 /* TrainSpotX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3475582B155A6C6500E74FE5 /* TrainSpotXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34755840155A6C6500E74FE5 /* Build configuration list for PBXNativeTarget "TrainSpotXTests" */;
+			buildPhases = (
+				34755827155A6C6500E74FE5 /* Sources */,
+				34755828155A6C6500E74FE5 /* Frameworks */,
+				34755829155A6C6500E74FE5 /* Resources */,
+				3475582A155A6C6500E74FE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34755831155A6C6500E74FE5 /* PBXTargetDependency */,
+			);
+			name = TrainSpotXTests;
+			productName = TrainSpotXTests;
+			productReference = 3475582C155A6C6500E74FE5 /* TrainSpotXTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		34755878155A6D1700E74FE5 /* TrainSpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347558A1155A6D1800E74FE5 /* Build configuration list for PBXNativeTarget "TrainSpot" */;
+			buildPhases = (
+				34755875155A6D1700E74FE5 /* Sources */,
+				34755876155A6D1700E74FE5 /* Frameworks */,
+				34755877155A6D1700E74FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainSpot;
+			productName = TrainSpot;
+			productReference = 34755879155A6D1700E74FE5 /* TrainSpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34755891155A6D1800E74FE5 /* TrainSpotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347558A4155A6D1800E74FE5 /* Build configuration list for PBXNativeTarget "TrainSpotTests" */;
+			buildPhases = (
+				3475588D155A6D1800E74FE5 /* Sources */,
+				3475588E155A6D1800E74FE5 /* Frameworks */,
+				3475588F155A6D1800E74FE5 /* Resources */,
+				34755890155A6D1800E74FE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34755897155A6D1800E74FE5 /* PBXTargetDependency */,
+			);
+			name = TrainSpotTests;
+			productName = TrainSpotTests;
+			productReference = 34755892155A6D1800E74FE5 /* TrainSpotTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34755802155A6C6400E74FE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 34755805155A6C6400E74FE5 /* Build configuration list for PBXProject "TrainSpotX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34755800155A6C6400E74FE5;
+			productRefGroup = 3475580C155A6C6400E74FE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3475580A155A6C6400E74FE5 /* TrainSpotX */,
+				3475582B155A6C6500E74FE5 /* TrainSpotXTests */,
+				34755878155A6D1700E74FE5 /* TrainSpot */,
+				34755891155A6D1800E74FE5 /* TrainSpotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34755809155A6C6400E74FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3475581A155A6C6400E74FE5 /* InfoPlist.strings in Resources */,
+				34755820155A6C6400E74FE5 /* Credits.rtf in Resources */,
+				34755826155A6C6400E74FE5 /* MainMenu.xib in Resources */,
+				34755858155A6C9E00E74FE5 /* stations.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34755829155A6C6500E74FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34755837155A6C6500E74FE5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34755877155A6D1700E74FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34755886155A6D1700E74FE5 /* InfoPlist.strings in Resources */,
+				347558B6155A6D5F00E74FE5 /* stations.txt in Resources */,
+				60284548155AD74400692916 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3475588F155A6D1800E74FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3475589D155A6D1800E74FE5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3475582A155A6C6500E74FE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		34755890155A6D1800E74FE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34755807155A6C6400E74FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3475581C155A6C6400E74FE5 /* main.m in Sources */,
+				34755823155A6C6400E74FE5 /* MAAppDelegate.m in Sources */,
+				34755852155A6C9E00E74FE5 /* MALoadTrainRequest.m in Sources */,
+				34755853155A6C9E00E74FE5 /* MALoadTrainStationRequest.m in Sources */,
+				34755854155A6C9E00E74FE5 /* MATrain.m in Sources */,
+				34755855155A6C9E00E74FE5 /* MATrainInformationService.m in Sources */,
+				34755856155A6C9E00E74FE5 /* MATrainStation.m in Sources */,
+				34755857155A6C9E00E74FE5 /* MAXMLHttpRequest.m in Sources */,
+				3482A908157CCD4B0013FB6B /* MAApplicationSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34755827155A6C6500E74FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3475583A155A6C6500E74FE5 /* TrainSpotXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34755875155A6D1700E74FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34755888155A6D1700E74FE5 /* main.m in Sources */,
+				347558B1155A6D4000E74FE5 /* MATrainMapViewController.m in Sources */,
+				347558B2155A6D4000E74FE5 /* MATrainStationListViewController.m in Sources */,
+				347558B3155A6D4000E74FE5 /* MATrainStationViewController.m in Sources */,
+				347558B4155A6D4000E74FE5 /* MATrainViewController.m in Sources */,
+				347558B5155A6D4000E74FE5 /* TrainSpotAppDelegate.m in Sources */,
+				347558B7155A6D6200E74FE5 /* MAXMLHttpRequest.m in Sources */,
+				347558B8155A6D6500E74FE5 /* MATrainStation.m in Sources */,
+				347558B9155A6D6800E74FE5 /* MATrainInformationService.m in Sources */,
+				347558BA155A6D6B00E74FE5 /* MATrain.m in Sources */,
+				347558BB155A6D7000E74FE5 /* MALoadTrainStationRequest.m in Sources */,
+				347558BC155A6D7300E74FE5 /* MALoadTrainRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3475588D155A6D1800E74FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347558A0155A6D1800E74FE5 /* TrainSpotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34755831155A6C6500E74FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3475580A155A6C6400E74FE5 /* TrainSpotX */;
+			targetProxy = 34755830155A6C6500E74FE5 /* PBXContainerItemProxy */;
+		};
+		34755897155A6D1800E74FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34755878155A6D1700E74FE5 /* TrainSpot */;
+			targetProxy = 34755896155A6D1800E74FE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34755818155A6C6400E74FE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34755819155A6C6400E74FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3475581E155A6C6400E74FE5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3475581F155A6C6400E74FE5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		34755824155A6C6400E74FE5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34755825155A6C6400E74FE5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		34755835155A6C6500E74FE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34755836155A6C6500E74FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34755884155A6D1700E74FE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34755885155A6D1700E74FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3475589B155A6D1800E74FE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3475589C155A6D1800E74FE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60284546155AD74400692916 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60284547155AD74400692916 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3475583B155A6C6500E74FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3475583C155A6C6500E74FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3475583E155A6C6500E74FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainSpotX/TrainSpotX-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
+				INFOPLIST_FILE = "TrainSpotX/TrainSpotX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3475583F155A6C6500E74FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainSpotX/TrainSpotX-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
+				INFOPLIST_FILE = "TrainSpotX/TrainSpotX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34755841155A6C6500E74FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrainSpotX.app/Contents/MacOS/TrainSpotX";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainSpotX/TrainSpotX-Prefix.pch";
+				INFOPLIST_FILE = "TrainSpotXTests/TrainSpotXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		34755842155A6C6500E74FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrainSpotX.app/Contents/MacOS/TrainSpotX";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainSpotX/TrainSpotX-Prefix.pch";
+				INFOPLIST_FILE = "TrainSpotXTests/TrainSpotXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		347558A2155A6D1800E74FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainSpot/TrainSpot-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
+				INFOPLIST_FILE = "TrainSpot/TrainSpot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		347558A3155A6D1800E74FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainSpot/TrainSpot-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
+				INFOPLIST_FILE = "TrainSpot/TrainSpot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		347558A5155A6D1800E74FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrainSpot.app/TrainSpot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainSpot/TrainSpot-Prefix.pch";
+				INFOPLIST_FILE = "TrainSpotTests/TrainSpotTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		347558A6155A6D1800E74FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrainSpot.app/TrainSpot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainSpot/TrainSpot-Prefix.pch";
+				INFOPLIST_FILE = "TrainSpotTests/TrainSpotTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34755805155A6C6400E74FE5 /* Build configuration list for PBXProject "TrainSpotX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3475583B155A6C6500E74FE5 /* Debug */,
+				3475583C155A6C6500E74FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3475583D155A6C6500E74FE5 /* Build configuration list for PBXNativeTarget "TrainSpotX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3475583E155A6C6500E74FE5 /* Debug */,
+				3475583F155A6C6500E74FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34755840155A6C6500E74FE5 /* Build configuration list for PBXNativeTarget "TrainSpotXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34755841155A6C6500E74FE5 /* Debug */,
+				34755842155A6C6500E74FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347558A1155A6D1800E74FE5 /* Build configuration list for PBXNativeTarget "TrainSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347558A2155A6D1800E74FE5 /* Debug */,
+				347558A3155A6D1800E74FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347558A4155A6D1800E74FE5 /* Build configuration list for PBXNativeTarget "TrainSpotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347558A5155A6D1800E74FE5 /* Debug */,
+				347558A6155A6D1800E74FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34755802155A6C6400E74FE5 /* Project object */;
+}
